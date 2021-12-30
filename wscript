@@ -36,7 +36,7 @@ import sys
 import os
 import sferes
 sys.path.insert(0, sys.path[0]+'/waf_tools')
-print sys.path[0]
+print(sys.path[0])
 
 
 from waflib.Configure import conf
@@ -58,7 +58,7 @@ def options(opt) :
 
 @conf
 def configure(conf): 
-    print 'conf exp:'
+    print('conf exp:')
     conf.load('ode')
     conf.load('robdyn')
     conf.load('hexapod_controller')
