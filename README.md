@@ -1,4 +1,7 @@
 # MODULAR_QD
+> I forked this project to fix missing parentheses and use this module in another project.
+
+
 ### CAUTION: This library is directly integrated in [Sferes2](https://github.com/sferes2/sferes2/tree/qd), so you don't need to add this library as an additional module anymore. 
 
 A sferes2 module for modular Quality-Diversity algorithm.
